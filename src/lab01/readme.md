@@ -1,5 +1,5 @@
 # **Лабораторная работа №1**
 ## **Задание 1**
-![images/lab01/ex01.png](images/lab01/ex01.png)
+![ex01](main/images/lab01/ex01.png)
 >Скриншот задания 1
 
