@@ -3,9 +3,8 @@ M = S.strip().split()
 L = ' '.join(M)
 k = len(L)
 F = ''
-for i in S:
-    if i.isupper():
-        F += i
+for i in M:
+    F += i[0]
 print(L)
 print(f'Инициалы: {F}')
 print(f'Длина (символов): {k}')
