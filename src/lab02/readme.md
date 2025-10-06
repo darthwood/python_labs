@@ -1,7 +1,7 @@
 # **Лабораторная работа №2**
 ## **Часть A**
 >Min_Max
-![min_max](https://github.com/darthwood/python_labs/blob/main/images/lab02/arrays.png)
+![min_max](https://github.com/darthwood/python_labs/blob/main/images/lab02/min_max.png)
 >Flattern
 ![flattern](https://github.com/darthwood/python_labs/blob/main/images/lab02/flattern.png)
 >Unique Sorted
