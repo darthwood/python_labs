@@ -4,7 +4,7 @@ def row_sums(n):
         if len(n[i]) == len(n[i+1]):
             s.append(sum(n[i]))
         else:
-            return 'ValueError'
+            raise 'ValueError'
     s.append(sum(n[i]))
     return s
 

@@ -4,7 +4,7 @@ def flattern(n):
         if i.isdigit():
             a.append(i)
         if i.isalpha():
-            return 'TypeError'
+            raise 'TypeError'
     return a
 
 n = list(map(str, input()))

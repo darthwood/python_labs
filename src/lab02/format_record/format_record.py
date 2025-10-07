@@ -17,7 +17,7 @@ def format_record(n):
         gpa = 'GPA ' + str(round(gpa, 2)) + '0'
         return f'{fio}, {gr}, {gpa}'
     except:
-        return 'TypeError'
+        raise 'TypeError'
 
 f1 = ("Иванов Иван Иванович", "BIVT-25", 4.6)
 f2 = ("Петров Пётр", "IKBO-12", 5.0)

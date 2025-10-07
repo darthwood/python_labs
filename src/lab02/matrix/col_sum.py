@@ -10,7 +10,7 @@ def col_sums(n):
                 for y in range(len(n[0])):
                     s.append(n[x][y] + n[x+1][y])
             else:
-                return 'ValueError'
+                raise 'ValueError'
         return s
 
 c1 = [[1, 2, 3], [4, 5, 6]]

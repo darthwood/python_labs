@@ -2,7 +2,7 @@ def transpose(n):
     s = []
     for i in range(len(n)-1):
         if len(n[i]) != len(n[i+1]):
-            return 'ValueError'
+            raise 'ValueError'
     if n == []:
         return []
     cls = len(n)

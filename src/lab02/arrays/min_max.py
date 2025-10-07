@@ -9,7 +9,7 @@ def min_max(n):
             try:
                 m.append(float(i))
             except:
-                return 'ValueError'
+                raise 'ValueError'
     return min(m),max(m)
 
 n = list(map(str, input().split(',')))
