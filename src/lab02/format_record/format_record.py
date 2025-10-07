@@ -1,7 +1,7 @@
 def format_record(n):
     fio = n[0]
     gr = n[1]
-    gpa = n[2]
+    gpa = float(n[2])
     fio = fio.split()
     try:
         if len(fio) == 3:
