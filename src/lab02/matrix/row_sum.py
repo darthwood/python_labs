@@ -19,7 +19,7 @@ print(row_sums(r3))
 print(row_sums(r4))
 
 # src/lab02/matrix/row_sum.py
-# [6, 6]
+# [6, 15]
 # [0, 0]
 # [0, 0]
 # ValueError
