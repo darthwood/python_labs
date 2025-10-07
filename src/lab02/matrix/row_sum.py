@@ -5,7 +5,7 @@ def row_sums(n):
             s.append(sum(n[i]))
         else:
             raise 'ValueError'
-    s.append(sum(n[i]))
+    s.append(sum(n[-1]))
     return s
 
 r1 = [[1, 2, 3], [4, 5, 6]]
