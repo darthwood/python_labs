@@ -9,9 +9,9 @@ def count_freq(n):
         my_dic[i] = n.count(i)
     return my_dic
 
-def top_n(n):
+def top_n(n,b):
     s = count_freq(n)
-    return list(s.items())[:2]
+    return list(s.items())[:b]
 
 print(count_freq(c1))
 print(count_freq(c2))
