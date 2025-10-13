@@ -25,7 +25,7 @@ print(tokenize(t4))
 print(tokenize(t5))
 
 # ['привет', 'мир']
-# ['hello,world']
+# ['hello', 'world']
 # ['по-настоящему', 'круто']
 # ['год']
 # ['emoji', 'не', 'слово']
