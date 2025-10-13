@@ -1,18 +1,11 @@
 # **Лабораторная работа №3**
 ## **Часть A**
->Min_Max
-![min_max](https://github.com/darthwood/python_labs/blob/main/images/lab02/min_max.png)
->Flattern
-![flattern](https://github.com/darthwood/python_labs/blob/main/images/lab02/flattern.png)
->Unique Sorted
-![unique](https://github.com/darthwood/python_labs/blob/main/images/lab02/unique_sorted.png)
+>Normalize
+![normas](https://github.com/darthwood/python_labs/blob/main/images/lab03/normas.png)
+>Tokenize
+![tokenmodern](https://github.com/darthwood/python_labs/blob/main/images/lab03/tokenmodern.png)
+>Count_seq + Top_n
+![count_top](https://github.com/darthwood/python_labs/blob/main/images/lab03/count_top.png)
 ## **Часть B**
->Transpose
-![transpose](https://github.com/darthwood/python_labs/blob/main/images/lab02/transpose.png)
->Row sum
-![row_sum](https://github.com/darthwood/python_labs/blob/main/images/lab02/row_sums.png)
->Col sum
-![col_sum](https://github.com/darthwood/python_labs/blob/main/images/lab02/col_sum.png)
-## **Часть C**
->Format record
-![format_record](https://github.com/darthwood/python_labs/blob/main/images/lab02/format_record.png)
+>Text_stats
+![stdin](https://github.com/darthwood/python_labs/blob/main/images/lab03/stdin.png)
