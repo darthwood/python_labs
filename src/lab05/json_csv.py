@@ -36,8 +36,8 @@ def json_2_csv(puta: str|Path, outputa: str|Path = None, encoding = 'utf-8'):
         pisa.writerows(blue)
 
 
-a = csv_2_json('src\lab04\data.csv',encoding='utf-8')
-b = json_2_csv('src\lab05\data.json',encoding='utf-8')   
+# a = csv_2_json('src\lab04\data.csv',encoding='utf-8')
+# b = json_2_csv('src\lab05\data.json',encoding='utf-8')   
 
 # b = json_2_csv('src\lab05\data.json',encoding='utf-8') 
 # Слово 1,значение 1
