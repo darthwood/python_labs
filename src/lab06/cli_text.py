@@ -13,7 +13,7 @@ import argparse
 def pyrga():
     pyrger = argparse.ArgumentParser(description='Конвертер csv<=>json')
     pyrger.add_argument('--mode',type=str,required=True,
-                        choices=['csv2json','json2csv']
+                        choices=['csv2json','json2csv'],
                         help='Синяя пилюля или красная')
     pyrger.add_argument('--input', type=str, required=True,
                         help='Вход в кроличью нору (типа: data.csv)')
