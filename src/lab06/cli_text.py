@@ -1,12 +1,13 @@
 import csv
 import json
 import sys 
+import importlib.util
+file_path = 'src/lab05/json_csv.py'
+spec = importlib.util.spec_from_file_location('json_csv',file_path)
+con = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(con)
+sys.modules['json_csv'] = con
 from pathlib import Path
-sys.path.append(str(Path(json_csv).parent/'src'/'lab05'))
-from src import *
-from lab05 import json_csv
-from json_csv import *
-from lab03 import *
 import argparse
 
 def pyrga():
@@ -22,10 +23,10 @@ def pyrga():
                         help='Как читать эти символы (по умолчанию в ютф-8)')
     args = pyrger.parse_args()
     if args.mode == 'csv2json':
-        csv_2_json(args.input, args.output, args.encoding)
+        con.csv_2_json(args.input, args.output, args.encoding)
 
     elif args.mode == 'json2csv':
-        json_2_csv(args.input, ergs.output, args.encoding)
+        con.json_2_csv(args.input, args.output, args.encoding)
 
 if __name__=='__pyrga__':
     pyrga()          
