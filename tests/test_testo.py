@@ -1,4 +1,8 @@
-  import pytest
+import sys
+import os
+PROJECT_ROOT = r"C:\\Users\\Andrew\\HiGIT\\python_labs"
+sys.path.insert(0, PROJECT_ROOT)
+import pytest
 from src.lab03.umbapumpa import *
 
 @pytest.mark.parametrize(
@@ -41,13 +45,9 @@ def test_count_freq(n, expected):
 @pytest.mark.parametrize(
     "n, b, expected",
     [
-        ({"a":3,"b":2,"c":1}, 2, [("a", 3), ("b", 2)]),
-        ({"aa":2,"bb":2,"cc":1}, 5, [("aa",2), ("bb",2), ("cc",1)]),
+        (["a","b","a","c","b","a"], 2, [("a", 3), ("b", 2)]),
+        (["bb","aa","bb","aa","cc"], 5, [("aa",2), ("bb",2), ("cc",1)]),
     ],
 )
 def test_top_n(n, b, expected):
     assert top_n(n, b) == expected
-
-
-
-   

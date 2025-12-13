@@ -161,3 +161,11 @@ def write_csv(rows, path, header=None):
             writer.writerow(header)   
         for row in rows: # пишем строки
             writer.writerow(row) 
+
+
+def chiko(filen, kol):
+    with open(filen, 'r', encoding='utf-8') as f:
+        a = f.read()
+        t = sorted(tokenize(a))
+        b = sorted(count_freq(t).items(),key=lambda item: item[1], reverse=True)[:kol]
+    print(b)  
