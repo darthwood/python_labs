@@ -12,3 +12,6 @@
 ![gif5](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXF2dmxpaGh4OXpucWIybjhucWdkNm5uMTlmcGk1OHFiYXFscHZmZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bOinPZvOwiLZe/giphy.gif)
 # Лабораторная работа №7 выполнена! #
 ![gif6](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2xoNTN3dHR3MWh2NGZlNG85ZDN0Njg2Z2N2N3QydXN0MTk1NzFsbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3amA3EUNhPsxW/giphy.gif)
+# Лабораторная работа №8 выполнена! #
+![gif7](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDF4dXM4dzgwcTEzaWE2MDc4Y3MzN2I4cXViM2pxMmowdWdqYjFhcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/40M8MH9x9lDxaHA51d/giphy.gif)
+
