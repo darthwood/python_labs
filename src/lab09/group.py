@@ -183,12 +183,12 @@ class Group:
     
         updated = True
     
-    # Сохраняем
+    
         if updated:
             print(f"\n Ща все будет")
             print(f"   Файл: {self.path}")
         
-        # Покажем что будем сохранять
+        
             print(f"\n Теперь вот так:")
             for i, row in enumerate(rows):
                 if i == found_index:
@@ -196,7 +196,7 @@ class Group:
                 else:
                     print(f"   {i+1}. {row['fio']}")
         
-        # ВЫЗЫВАЕМ СОХРАНЕНИЕ
+        
             self._write_all(rows)
             print(f"Готово")
         else:
@@ -347,7 +347,7 @@ def kava():
                     print(f"Файл {chaki.file} тупой и идет нафиг")
             else:
                 print(f"Фигня получилась: функция вернула {type(students)} вместо списка")
-                #print_students_info(students, chaki.file)
+                
         
         elif chaki.action == 'add':
             if all([chaki.fio, chaki.birth, chaki.group, chaki.gpa]):
