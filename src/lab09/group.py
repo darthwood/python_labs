@@ -4,7 +4,7 @@ from dataclasses import dataclass
 from datetime import datetime, date
 from typing import List, Optional, Dict
 from src.lab08.models import Pervoxod
-from src.lab08.serialize import * #students_from_json, students_to_json, print_students_info
+from src.lab08.serialize import * 
 import argparse
 import csv
 import re
@@ -399,7 +399,7 @@ def kava():
         
         elif chaki.action == 'stats':
             stats = group.stats()
-            print(f"\n📊 СТАТИСТИКА ГРУППЫ ({chaki.file}):")
+            print(f"\n СТАТИСТИКА ГРУППЫ ({chaki.file}):")
             print(f"   Всего студентов: {stats['total']}")
             if stats['total'] > 0:
                 print(f"   Средний балл: {stats['avg_gpa']:.2f}")
