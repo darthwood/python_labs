@@ -36,7 +36,7 @@ class SinglyLinkedList:
         
         self._size += 1
     
-    def prepend(self, value: Any) -> None:  # Добавим в конец
+    def prepend(self, value: Any) -> None:  # Добавим в  начало
         
         new_node = Node(value)
         
